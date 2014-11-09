@@ -1,5 +1,5 @@
 {
-  "name": "dynamos",
+  "name": "dynamose",
   "description": "A Promise-Based DynamoDB Client",
   "version": "0.0.1",
   "filename": "index.js",
