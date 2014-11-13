@@ -43,9 +43,9 @@ unprettyDB
 
 // use Promise.all/.props to fulfill more the one request
 var Promise = require('bluebird');
-  Promise.props({
-    accounts: db.getItem(params1),
-    users   : db.getItem(params2),
-    orders  : db.getItem(params3)
-  }).then(console.log); // { accounts: { ... }, { users: { ... }, orders: { ... } } }
+Promise.props({
+  accounts: db.getItem(params1),
+  users   : db.getItem(params2),
+  orders  : db.getItem(params3)
+}).then(console.log); // { accounts: { ... }, { users: { ... }, orders: { ... } } }
 ```
