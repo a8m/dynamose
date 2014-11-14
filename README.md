@@ -2,7 +2,7 @@
 [![Build Status](https://travis-ci.org/a8m/dynamose.svg)](https://travis-ci.org/a8m/dynamose)
 [![Coverage Status](https://img.shields.io/coveralls/a8m/dynamose.svg)](https://coveralls.io/r/a8m/dynamose)
 
-**Dynamose** is a client for the Amazon's DynamoDB that gives you to deal with promises instead of callbacks.
+**Dynamose** is a client for the Amazon's DynamoDB that gives you to deal with promises instead of callbacks. **v0.0.1**
 
 ###Installing
 **git:**
